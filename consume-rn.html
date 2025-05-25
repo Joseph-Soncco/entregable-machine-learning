@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clasificador de Triángulos</title>
+  <!-- p5.js & ml5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ml5@0.12.2/dist/ml5.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Clasificador de Triángulos</h1>
+
+  <div id="samples">
+    <figure data-label="rect_A">
+      <img src="images/Triángulo_rectángulo_A.png"><figcaption>Rect_A</figcaption>
+    </figure>
+    <figure data-label="rect_B">
+      <img src="images/Triángulo_rectángulo_B.png"><figcaption>Rect_B</figcaption>
+    </figure>
+    <figure data-label="rect_C">
+      <img src="images/Triángulo_rectángulo_C.png"><figcaption>Rect_C</figcaption>
+    </figure>
+    <figure data-label="rect_D">
+      <img src="images/Triángulo_rectángulo_D.png"><figcaption>Rect_D</figcaption>
+    </figure>
+    <figure data-label="acu_A">
+      <img src="images/Triángulo_acutángulo_A.png"><figcaption>Acu_A</figcaption>
+    </figure>
+    <figure data-label="acu_B">
+      <img src="images/Triángulo_acutángulo_B.png"><figcaption>Acu_B</figcaption>
+    </figure>
+  </div>
+
+  <div id="sketch-holder"></div>
+  <button id="clear-btn">Limpiar</button>
+  <div id="result">Dibuja un triángulo para clasificar</div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
